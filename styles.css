@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: hsl(216, 50%, 16%);
+}
+
+.container {
+    background: hsl(217, 54%, 11%);
+    width: 350px;
+    height: 560px;
+    box-shadow: 1px 0px 20px 2px rgb(0, 10, 10, 10);
+    border-radius: 20px;
+}
+
+.container img {
+        margin: 23px;
+    width: 85%;
+    border-radius: 20px;
+    margin-bottom: 0;
+    
+}
+
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.container > .blue {
+    padding: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+ul > #first {
+    color: hsl(178, 100%, 50%);
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+ul > #last {
+    margin-left: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+ span {
+    position: relative;
+    top: 3px;
+    padding-right: 10px;
+    
+}
+
+.horizontal-line{
+    border-top: 1px solid hsl(215, 32%, 27%);
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    width: 90%;
+    margin: auto;
+  }
+
+
+.white {
+    position: relative;
+    top: -20px;
+    color: hsl(215, 51%, 70%);
+}
+
+strong {
+    color: hsl(0, 0%, 100%);
+}
+
+.image {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border: 1px solid white;
+}
+
